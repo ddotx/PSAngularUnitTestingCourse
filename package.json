@@ -6,7 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "test": "ng test"
+    "test": "set NODE_OPTIONS=--openssl-legacy-provider && ng test"
   },
   "keywords": [],
   "author": "",
